@@ -1,0 +1,49 @@
+Ciclo Básico de Trabalho
+
+Subversion tem inúmeras funcionalidades, opções, sinos e assobios, mas em todos os dias mais propensos a usar apenas
+alguns deles. Nesta seção, veremos as coisas mais comuns que você pode fazer com o Subversion no decorrer de um dia
+de trabalho.
+
+O ciclo de trabalho típico se parece com isto:
+
+Atualizando sua cópia de trabalho
+
+svn update
+
+Fazer alterações
+
+svn add
+
+svn delete
+
+svn copy
+
+svn move
+
+Examine as suas alterações
+
+svn status
+
+svn diff
+
+svn revert
+
+Mesclar alterações de outras pessoas em sua cópia de trabalho
+
+svn merge
+
+svn resolvido
+
+Envie suas alterações
+
+svn commit
+
+Atualizando sua cópia de trabalho
+
+Quando estiver trabalhando em um projeto com uma equipe, você quer atualizar sua cópia de trabalho para receber todas  
+as alterações feitas desde a última atualização por outros desenvolvedores do projeto. Use svn update para deixar 
+sua cópia de trabalho em sincronia com a última revisão no repositório.
+Atualizado para revisão 2.
+Neste caso, alguém enviou mudanças foo.c e bar.c desde a última vez que você atualizou, eo Subversion atualizou sua 
+cópia de trabalho para incluir essas mudanças.
+
