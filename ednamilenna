@@ -1,0 +1,13 @@
+O repositório
+
+Subversion é um sistema centralizado para compartilhar informações. A parte principal é o repositório Subversion, que é uma central de armazenamento de dados. O repositório armazena informações na forma de arquivo de árvore , uma hierarquia típica de arquivos e diretórios. Qualquer número de clientes podem se conectar ao repositório e, em seguida, ler ou escrever para esses arquivos. Ao gravar dados, um cliente torna a informação disponível para os outros, na leitura dos dados, o cliente recebe informações
+de outras pessoas.
+Então, o que tem esta interessante?. Até agora, parece que a definição de um típico servidor de arquivos. E, de fato, o 
+repositório é um tipo de servidor de arquivos, mas não o tipo de costume. O que torna o repositório do Subversion especial
+é que ele se lembra de todas as alterações feitas a ele: cada mudança em cada arquivo, e até mesmo alterações na própria
+árvore de diretórios, como a adição, exclusão e reorganização de arquivos e diretórios.
+Quando um cliente lê dados do repositório, ele normalmente vê apenas a última versão da árvore de arquivos. No entanto, 
+o cliente também tem a capacidade de ver as declarações anteriores do sistema de arquivos. Por exemplo, um cliente pode 
+fazer perguntas históricas como, " O que este diretório continha última quarta-feira? " Este é o tipo de questões que são
+essenciais em qualquer sistema de controle de versão : sistemas que são projetados para gravar e monitorar as mudanças em 
+os dados ao longo do tempo.
